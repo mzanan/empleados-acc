@@ -3,7 +3,7 @@ namespace gestion;
 using {cuid} from '@sap/cds/common';
 
 entity Empleados {
-    key ID                : Integer;
+    key ID                : String;
         nombre            : String;
         apellido          : String;
         fechaNacimiento   : Date;
